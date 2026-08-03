@@ -1,0 +1,28 @@
+{
+  "name": "wechat-theme",
+  "displayName": "WeChat Theme",
+  "description": "从微信开发者工具还原的 VS Code 浅色主题（wechat-light）",
+  "version": "1.0.0",
+  "publisher": "wechat-theme",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "wechat",
+    "light",
+    "miniprogram"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "WeChat Light",
+        "uiTheme": "vs",
+        "path": "./themes/wechat-light-color-theme.json"
+      }
+    ]
+  }
+}
